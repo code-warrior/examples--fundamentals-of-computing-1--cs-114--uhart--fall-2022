@@ -1,4 +1,4 @@
-# CS 114 Code Examples
+# Fundamentals of Computing I (CS 114) Code Examples
 
 ---
 
