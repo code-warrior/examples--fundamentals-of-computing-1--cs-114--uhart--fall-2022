@@ -14,6 +14,6 @@ public class Comments {
       * @param args
       */
     public static void main(String args[]) {
-        System.out.println("Working with comments");
+        System.out.println("Working with comments, both single- and multi-line.");
     }
 }
