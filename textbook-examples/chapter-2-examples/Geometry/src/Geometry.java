@@ -1,17 +1,15 @@
-//********************************************************************
+// *****************************************************************************
 //  Geometry.java       Author: Lewis/Loftus
 //
-//  Demonstrates the use of an assignment statement to change the
-//  value stored in a variable.
-//********************************************************************
+//  Demonstrates the use of an assignment statement to change the value stored
+//  in a variable.
+// *****************************************************************************
 
-public class Geometry
-{
+public class Geometry {
     //-----------------------------------------------------------------
     //  Prints the number of sides of several geometric shapes.
     //-----------------------------------------------------------------
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         int sides = 7;  // declaration with initialization
         System.out.println("A heptagon has " + sides + " sides.");
 

@@ -1,19 +1,16 @@
-//********************************************************************
+// *****************************************************************************
 //  GasMileage.java       Author: Lewis/Loftus
 //
 //  Demonstrates the use of the Scanner class to read numeric data.
-//********************************************************************
+// *****************************************************************************
 
 import java.util.Scanner;
 
-public class GasMileage
-{
-    //-----------------------------------------------------------------
-    //  Calculates fuel efficiency based on values entered by the
-    //  user.
-    //-----------------------------------------------------------------
-    public static void main(String[] args)
-    {
+public class GasMileage {
+    // -------------------------------------------------------------------------
+    //  Calculates fuel efficiency based on values entered by the user.
+    // -------------------------------------------------------------------------
+    public static void main(String[] args) {
         int miles;
         double gallons, mpg;
 
