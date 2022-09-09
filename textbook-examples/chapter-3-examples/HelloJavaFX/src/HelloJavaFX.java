@@ -1,8 +1,8 @@
-//************************************************************************
+// *****************************************************************************
 //  HelloJavaFX.java       Author: Lewis/Loftus
 //
 //  Demonstrates a basic JavaFX application.
-//************************************************************************
+// *****************************************************************************
 
 import javafx.application.Application;
 import javafx.scene.Group;
@@ -11,13 +11,11 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class HelloJavaFX extends Application
-{
-    //--------------------------------------------------------------------
+public class HelloJavaFX extends Application {
+    // -------------------------------------------------------------------------
     //  Creates and displays two Text objects in a JavaFX window.
-    //--------------------------------------------------------------------
-    public void start(Stage primaryStage)
-    {
+    // -------------------------------------------------------------------------
+    public void start(Stage primaryStage) {
         Text hello = new Text(50, 50, "Hello, JavaFX!");
         Text question = new Text(120, 80, "How's it going?");
 
@@ -29,12 +27,11 @@ public class HelloJavaFX extends Application
         primaryStage.show();
     }
 
-    //--------------------------------------------------------------------
-    //  Launches the JavaFX application. This method is not required
-    //  in IDEs that launch JavaFX applications automatically.
-    //--------------------------------------------------------------------
-    public static void main(String[] args)
-    {
+    // -------------------------------------------------------------------------
+    //  Launches the JavaFX application. This method is not required in IDEs
+    //  that launch JavaFX applications automatically.
+    // -------------------------------------------------------------------------
+    public static void main(String[] args) {
         launch(args);
     }
 }

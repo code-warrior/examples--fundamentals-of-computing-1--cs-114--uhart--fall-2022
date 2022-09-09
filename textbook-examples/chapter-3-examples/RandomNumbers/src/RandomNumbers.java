@@ -1,19 +1,16 @@
-//********************************************************************
+// *****************************************************************************
 //  RandomNumbers.java       Author: Lewis/Loftus
 //
-//  Demonstrates the creation of pseudo-random numbers using the
-//  Random class.
-//********************************************************************
+//  Demonstrates the creation of pseudo-random numbers using the Random class.
+// *****************************************************************************
 
 import java.util.Random;
 
-public class RandomNumbers
-{
-    //-----------------------------------------------------------------
+public class RandomNumbers {
+    // -------------------------------------------------------------------------
     //  Generates random numbers in various ranges.
-    //-----------------------------------------------------------------
-    public static void main(String[] args)
-    {
+    // -------------------------------------------------------------------------
+    public static void main(String[] args) {
         Random generator = new Random();
         int num1;
         float num2;

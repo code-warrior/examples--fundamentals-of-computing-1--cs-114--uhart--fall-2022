@@ -1,16 +1,14 @@
-//********************************************************************
+// *****************************************************************************
 //  StringMutation.java       Author: Lewis/Loftus
 //
 //  Demonstrates the use of the String class and its methods.
-//********************************************************************
+// *****************************************************************************
 
-public class StringMutation
-{
-    //-----------------------------------------------------------------
+public class StringMutation {
+    // -------------------------------------------------------------------------
     //  Prints a string and various mutations of it.
-    //-----------------------------------------------------------------
-    public static void main(String[] args)
-    {
+    // -------------------------------------------------------------------------
+    public static void main(String[] args) {
         String phrase = "Change is inevitable";
         String mutation1, mutation2, mutation3, mutation4;
 

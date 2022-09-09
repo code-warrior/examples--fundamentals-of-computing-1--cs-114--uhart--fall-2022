@@ -1,8 +1,8 @@
-//************************************************************************
+// *****************************************************************************
 //  Snowman.java       Author: Lewis/Loftus
 //
 //  Demonstrates the translation of a set of shapes.
-//************************************************************************
+// *****************************************************************************
 
 import javafx.application.Application;
 import javafx.stage.Stage;
@@ -11,13 +11,11 @@ import javafx.scene.Scene;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.*;
 
-public class Snowman extends Application
-{
-    //--------------------------------------------------------------------
+public class Snowman extends Application {
+    // -------------------------------------------------------------------------
     //  Presents a snowman scene.
-    //--------------------------------------------------------------------
-    public void start(Stage primaryStage)
-    {
+    // -------------------------------------------------------------------------
+    public void start(Stage primaryStage) {
         Ellipse base = new Ellipse(80, 210, 80, 60);
         base.setFill(Color.WHITE);
 
@@ -66,8 +64,7 @@ public class Snowman extends Application
         primaryStage.show();
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         launch(args);
     }
 }

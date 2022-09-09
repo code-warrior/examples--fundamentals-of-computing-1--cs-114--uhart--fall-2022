@@ -1,19 +1,17 @@
-//********************************************************************
+// *****************************************************************************
 //  Quadratic.java       Author: Lewis/Loftus
 //
-//  Demonstrates the use of the Math class to perform a calculation
-//  based on user input.
-//********************************************************************
+//  Demonstrates the use of the Math class to perform a calculation based on
+//  user input.
+// *****************************************************************************
 
 import java.util.Scanner;
 
-public class Quadratic
-{
-    //-----------------------------------------------------------------
+public class Quadratic {
+    // -------------------------------------------------------------------------
     //  Determines the roots of a quadratic equation.
-    //-----------------------------------------------------------------
-    public static void main(String[] args)
-    {
+    // -------------------------------------------------------------------------
+    public static void main(String[] args) {
         int a, b, c;  // ax^2 + bx + c
         double discriminant, root1, root2;
 

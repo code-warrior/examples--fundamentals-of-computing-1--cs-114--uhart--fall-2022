@@ -1,20 +1,18 @@
-//********************************************************************
+// *****************************************************************************
 //  Purchase.java       Author: Lewis/Loftus
 //
 //  Demonstrates the use of the NumberFormat class to format output.
-//********************************************************************
+// *****************************************************************************
 
 import java.util.Scanner;
 import java.text.NumberFormat;
 
-public class Purchase
-{
-    //-----------------------------------------------------------------
-    //  Calculates the final price of a purchased item using values
-    //  entered by the user.
-    //-----------------------------------------------------------------
-    public static void main(String[] args)
-    {
+public class Purchase {
+    // -------------------------------------------------------------------------
+    //  Calculates the final price of a purchased item using values entered by
+    // the user.
+    // -------------------------------------------------------------------------
+    public static void main(String[] args) {
         final double TAX_RATE = 0.06;  // 6% sales tax
 
         int quantity;

@@ -1,8 +1,8 @@
-//************************************************************************
+// *****************************************************************************
 //  Einstein.java       Author: Lewis/Loftus
 //
 //  Demonstrates the use of various shape classes.
-//************************************************************************
+// *****************************************************************************
 
 import javafx.application.Application;
 import javafx.scene.Group;
@@ -12,13 +12,11 @@ import javafx.scene.shape.*;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class Einstein extends Application
-{
-    //--------------------------------------------------------------------
+public class Einstein extends Application {
+    // -------------------------------------------------------------------------
     //  Creates and displays several shapes.
-    //--------------------------------------------------------------------
-    public void start(Stage primaryStage)
-    {
+    // -------------------------------------------------------------------------
+    public void start(Stage primaryStage) {
         Line line = new Line(35, 60, 150, 170);
 
         Circle circle = new Circle(100, 65, 20);
@@ -43,8 +41,7 @@ public class Einstein extends Application
         primaryStage.show();
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         launch(args);
     }
 }

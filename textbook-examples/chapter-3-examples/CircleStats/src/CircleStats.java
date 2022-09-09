@@ -1,21 +1,17 @@
-//********************************************************************
+// *****************************************************************************
 //  CircleStats.java       Author: Lewis/Loftus
 //
-//  Demonstrates the formatting of decimal values using the
-//  DecimalFormat class.
-//********************************************************************
+//  Demonstrates the formatting of decimal values using the DecimalFormat class.
+// *****************************************************************************
 
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class CircleStats
-{
-    //-----------------------------------------------------------------
-    //  Calculates the area and circumference of a circle given its
-    //  radius.
-    //-----------------------------------------------------------------
-    public static void main(String[] args)
-    {
+public class CircleStats {
+    // -------------------------------------------------------------------------
+    //  Calculates the area and circumference of a circle given its radius.
+    // -------------------------------------------------------------------------
+    public static void main(String[] args) {
         int radius;
         double area, circumference;
 
