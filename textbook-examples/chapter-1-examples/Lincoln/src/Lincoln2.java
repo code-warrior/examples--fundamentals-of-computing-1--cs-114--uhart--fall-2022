@@ -1,8 +1,8 @@
-//********************************************************************
+// *****************************************************************************
 //  Lincoln2.java       Author: Lewis/Loftus
 //
 //  Demonstrates a poorly formatted, though valid, program.
-//********************************************************************
+// *****************************************************************************
 
 public class Lincoln2{public static void main(String[]args){
 System.out.println("A quote by Abraham Lincoln:");
