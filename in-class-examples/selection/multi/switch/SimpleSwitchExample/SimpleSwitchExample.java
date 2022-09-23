@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SwitchExample {
+public class SimpleSwitchExample {
     public static void main(String[] args) {
         int number = 0;
         Scanner input = new Scanner(System.in);
