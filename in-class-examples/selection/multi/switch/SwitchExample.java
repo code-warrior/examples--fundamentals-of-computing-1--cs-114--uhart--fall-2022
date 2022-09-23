@@ -1,30 +1,41 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class SwitchExample {
-    public static void main(String args[]) {
-        int number;
-
+    public static void main(String[] args) {
+        int number = 0;
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter a number");
-
+        System.out.print("Please enter a number: ");
         number = input.nextInt();
 
         switch(number) {
-            // Note how we didn't need to group the following statements within curly braces.
             case 1:
-                System.out.print( "You entered the " );
-                System.out.println( "number 1" );
+                /*
+                 * Note how we didn't need to group the following statements
+                 * inside curly braces.
+                 */
+                System.out.println("You entered the number 1.");
+                System.out.println("Thanks for playing.");
 
                 break;
 
-            case 2:
-                System.out.println( "You entered the number 2 " );
+            case 2: {
+                /*
+                 * You may use curly braces, if you wish. This is uncommon.
+                 */
+                System.out.println("You entered the number 2.");
+                System.out.println("Thanks for playing.");
 
                 break;
+            }
 
-            default:
-                System.out.println( "You entered neither 1 nor 2" );
+            default: {
+                /*
+                 * You may also alter the location of your curly braces. This
+                 * too is uncommon.
+                 */
+                System.out.println("You entered neither 1 nor 2.");
+            }
 
                 break;
         }
