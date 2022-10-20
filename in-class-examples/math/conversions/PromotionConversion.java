@@ -15,6 +15,6 @@ public class PromotionConversion {
          * 3. Thus, variable count is promoted to 3.0, so the final division is
          *    7.0/3.0.
          */
-        System.out.println(sum / count);
+        System.out.println("sum (as a float) ∕ count (promoted to a float) = " + (sum / count));
     }
 }
