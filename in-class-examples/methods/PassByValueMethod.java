@@ -17,7 +17,6 @@ public class PassByValueMethod {
         System.out.printf("The value of y within method `swapByValue` " +
             "after carrying out the swap routine is %d%n%n",
             y);
-
     }
 
     public static void main(String[] args) {
@@ -32,7 +31,6 @@ public class PassByValueMethod {
             y);
 
         swapByValue(x, y);
-
 
         System.out.printf("The value of x within method `main` " +
             "after invoking the `swapByValue` method is %d%n",
