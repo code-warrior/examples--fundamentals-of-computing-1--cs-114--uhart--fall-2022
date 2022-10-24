@@ -26,7 +26,7 @@ public class EnumerationsExample {
         System.out.println("Now, let’s cycle through all the drummers: ");
         for (NirvanasDrummers firstName : NirvanasDrummers.values()) {
             // Note: Instead of firstName.name(), I could have simply written firstName
-            System.out.printf("  %s is at ordinal %s\n",
+            System.out.printf("  %s is at ordinal %s%n",
                 firstName.name(),
                 firstName.ordinal());
         }
