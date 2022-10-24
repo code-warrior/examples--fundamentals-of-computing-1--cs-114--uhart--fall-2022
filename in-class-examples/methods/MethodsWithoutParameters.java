@@ -19,7 +19,5 @@ public class MethodsWithoutParameters {
 
         System.out.println(getName());
         sayMyName();
-
-        System.out.println(Math.sqrt(3));
     }
 }
