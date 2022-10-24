@@ -4,6 +4,9 @@ public class MethodReturnsString {
     }
 
     public static void main(String[] args) {
-        getName();
+        String output = getName();
+
+        System.out.println(output);
+        System.out.println(getName());
     }
 }
