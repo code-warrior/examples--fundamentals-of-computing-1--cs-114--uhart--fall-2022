@@ -29,6 +29,18 @@ public class MyBox {
         length = _length;
     }
 
+    public double getWidth() {
+        return width;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
     public void setDimensions(double w, double h, double l) {
         setWidth(w);
         setHeight(h);
