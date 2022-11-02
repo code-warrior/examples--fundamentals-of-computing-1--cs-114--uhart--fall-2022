@@ -28,7 +28,6 @@ public class BasicArray {
             System.out.println("list[" + index + "] is " + list[index]);
         }
 
-        list[5] = 999;  // change one array value
         /*
          * The following for loop uses the “length” property, which is available to
          * every array in Java.
@@ -58,6 +57,8 @@ public class BasicArray {
 
         //  Print the array values using an enhanced for
         for (int value : list)
+        // Change the value of the element at the 3rd location of the array
+        list[2] = 999;
         System.out.println("Print the array values using an enhanced for:");
         for (int value : list) {
             System.out.print(value + "  ");
