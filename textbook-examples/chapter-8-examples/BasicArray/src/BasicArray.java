@@ -10,7 +10,7 @@ public class BasicArray {
     //  then prints them out.
     // ------------------------------------------------------------------------------
     public static void main(String[] args) {
-        final int LIMIT = 15,
+        final int LIMIT = 5,
             MULTIPLE = 10;
 
         /*
