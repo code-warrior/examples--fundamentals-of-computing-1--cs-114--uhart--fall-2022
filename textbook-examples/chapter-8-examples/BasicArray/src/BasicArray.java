@@ -48,6 +48,12 @@ public class BasicArray {
         for (int index = 0; index < LIMIT; index++) {
             list[index] = index;
         }
+
+        System.out.println("The integer value at the first index of the array is " +
+            list[0]);
+        System.out.println("The integer value at the fifth index of the array is " +
+            list[4]);
+
         //  Print the array values using an enhanced for
         for (int value : list)
             System.out.print(value + "  ");
