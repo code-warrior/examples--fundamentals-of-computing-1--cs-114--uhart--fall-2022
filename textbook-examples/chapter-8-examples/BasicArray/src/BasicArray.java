@@ -19,6 +19,9 @@ public class BasicArray {
          * alternate array syntax.
          */
         int[] list = new int[LIMIT];
+        final int ARRAY_LENGTH = list.length;
+
+        System.out.printf("%s%d%n", "The length of our int array is ", list.length);
 
         System.out.println("Let’s print the default values of an integer array:");
         for (int index = 0; index < LIMIT; index++) {
