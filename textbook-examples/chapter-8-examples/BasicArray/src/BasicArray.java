@@ -55,8 +55,6 @@ public class BasicArray {
         System.out.println("The integer value at the fifth index of the array is " +
             list[4]);
 
-        //  Print the array values using an enhanced for
-        for (int value : list)
         // Change the value of the element at the 3rd location of the array
         list[2] = 999;
         System.out.println("Print the array values using an enhanced for:");
