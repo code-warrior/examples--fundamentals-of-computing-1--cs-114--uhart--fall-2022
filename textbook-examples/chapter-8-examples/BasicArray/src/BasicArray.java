@@ -43,6 +43,11 @@ public class BasicArray {
         //     System.out.println("list[" + index + "] is " + list[index]);
         // }
 
+        System.out.println("Let’s over-ride the default integer " +
+            "values with the loop’s indices:");
+        for (int index = 0; index < LIMIT; index++) {
+            list[index] = index;
+        }
         //  Print the array values using an enhanced for
         for (int value : list)
             System.out.print(value + "  ");
