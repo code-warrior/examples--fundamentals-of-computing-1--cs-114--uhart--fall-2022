@@ -23,6 +23,9 @@ public class BasicArray {
         //  Initialize the array values
         for (int index = 0; index < LIMIT; index++)
             list[index] = index * MULTIPLE;
+        System.out.println("Let’s print the default values of an integer array:");
+        for (int index = 0; index < LIMIT; index++) {
+            System.out.println("list[" + index + "] is " + list[index]);
 
         list[5] = 999;  // change one array value
         /*
