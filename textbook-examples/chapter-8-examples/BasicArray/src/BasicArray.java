@@ -25,6 +25,20 @@ public class BasicArray {
             list[index] = index * MULTIPLE;
 
         list[5] = 999;  // change one array value
+        /*
+         * The following for loop uses the “length” property, which is available to
+         * every array in Java.
+         */
+        // for (int index = 0; index < list.length; index++) {
+        //     System.out.println("list[" + index + "] is " + list[index]);
+        // }
+        /*
+         * The following for loop uses the ARRAY_LENGTH constant, which is an
+         * assignment from the array’s “length” property.
+         */
+        // for (int index = 0; index < ARRAY_LENGTH; index++) {
+        //     System.out.println("list[" + index + "] is " + list[index]);
+        // }
 
         //  Print the array values using an enhanced for
         for (int value : list)
