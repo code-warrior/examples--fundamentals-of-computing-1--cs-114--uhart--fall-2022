@@ -4,10 +4,10 @@ public class WorkingWithColorInTheTerminal {
         final String RESET = "\033[39m";
 
         System.out.printf("%s%s%s%s%s%n",
-        "The following syntax is yellow→",
-        YELLOW,
-        "THIS CONTENT IS IN YELLOW",
-        RESET,
-        "←and this content was reset back to the default.");
+            "The following syntax is yellow :: ",
+            YELLOW,
+            "THIS CONTENT IS IN YELLOW",
+            RESET,
+            " :: and this content was reset back to the default.");
     }
 }
