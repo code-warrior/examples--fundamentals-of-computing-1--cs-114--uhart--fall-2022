@@ -15,7 +15,7 @@ public class TwoDArray {
         // Load the table with values
         for (int row = 0; row < table.length; row++) {
             for (int col = 0; col < table[row].length; col++) {
-                table[row][col] = row * 10 + col;
+                table[row][col] = (row * 10) + col;
             }
         }
 
