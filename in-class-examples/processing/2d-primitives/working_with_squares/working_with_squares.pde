@@ -3,14 +3,14 @@
 void setup() {
   // Over-ride the default canvas size of 100×100 → the computer’s entire screen.
   fullScreen();
+  
+  // Remove the stroke around all boxes
+  noStroke();
 }
 
 void draw() {
   /* Set the background to a pure gr{e|a}y */
   background(127);
-
-  /* Remove the stroke around boxes */
-  noStroke();
 
   /*
    * Fill the color of the next shape, in this case a box, to white, with 50%
