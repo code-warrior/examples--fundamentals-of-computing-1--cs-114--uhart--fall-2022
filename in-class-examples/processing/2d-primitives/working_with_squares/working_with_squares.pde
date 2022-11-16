@@ -16,7 +16,7 @@ void draw() {
    * Fill the color of the next shape, in this case a box, to white, with 50%
    * opacity.
    */
-  fill(255,255,255, 127);
+  fill(255, 255, 255, 127);
 
   /*
    * Draw a box whose top left corner is (0, 0) and whose width and height is equal
@@ -28,7 +28,7 @@ void draw() {
    * Fill the color of the next shape, in this case a box, to white, with 50%
    * opacity.
    */
-  fill(0,0,0,127);
+  fill(0, 0, 0, 127);
 
   /*
    * Draw a box whose top left corner is (0, 0) and whose width and height is equal
